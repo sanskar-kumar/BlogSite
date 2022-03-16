@@ -1,0 +1,32 @@
+<%- include('partials/header'); -%>
+
+    <h1>Welcome to your Daily Journal</h1>
+    <p>
+        <%=homepara%>
+    </p>
+    <% contents.forEach(function(blog){%>
+
+
+
+        <div>
+            <h1>
+                <h2>
+                    <a href="/post/<%=blog.heading%>">
+                        <%=blog.heading%>
+                    </a>
+                </h2>
+            </h1>
+            <hr>
+            <p>
+
+                <%=blog.content.substring(0,300) +"......"%>
+                    <a class="heading" href="/post/<%=blog.heading%>">Read More</a>
+                    <!-- //truncating to 50 characters -->
+
+            </p>
+        </div>
+
+
+        <%})%>
+
+            <%- include('partials/footer'); -%>
