@@ -1,5 +1,5 @@
 # Daily-Journal
-A app with a beautiful UI made useing HTML,CSS and Javascript.
+A app with a beautiful UI made useing HTML,CSS, and Javascript(particularly EJs).
 Daily Journal cum Blog web site where user can add their journal.
 
 Compose Post:-
